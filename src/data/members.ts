@@ -32,14 +32,7 @@ const admins: Member[] = [
   },
 ];
 
-const development: Member[] = [
-  {
-    name: "Daniel Mamuza",
-    role: "Webmaster",
-    link: "https://danielmamuza.com",
-    src: "/members/daniel_mamuza.webp",
-  },
-];
+const development: Member[] = [];
 
 const outreach: Member[] = [
   {
@@ -100,9 +93,9 @@ export const teams: Team[] = [
     name: "Member-Development & Workshops",
     members: members_development,
   },
-  {
-    id: "development",
-    name: "Development",
-    members: development,
-  },
+  // {
+  //   id: "development",
+  //   name: "Development",
+  //   members: development,
+  // },
 ];
