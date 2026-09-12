@@ -5,7 +5,7 @@ import { texts } from "~/data/texts";
 const Footer = () => {
   return (
     <footer className="flex md:flex-row flex-col items-center justify-center md:gap-20 gap-4 w-full mx-auto p-4 bg-secondary md:h-[15vh]">
-      <a
+      <Link
         className="flex items-center no-underline hover:scale-110 transform transition-transform duration-150"
         href="/"
       >
@@ -14,7 +14,7 @@ const Footer = () => {
           src="/AIDataScience_Image.jpg"
           alt="AI & Data Science Club Logo"
         />
-      </a>
+      </Link>
       <div className="flex gap-4">
         <div className="md:text-left text-center">
           <h3 className="text-primary font-light text-lg px-2">Links</h3>

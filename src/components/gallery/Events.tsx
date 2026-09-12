@@ -87,7 +87,7 @@ export const Events = ({ events }: EventsProps) => {
         <>
           <h2 className="text-4xl text-center mb-4">Past Events</h2>
           <h3 className="text-xl text-gray-700 text-center mb-8">
-            Check out what we've been up to!
+            Check out what we&apos;ve been up to!
           </h3>
 
           <ul className="grid md:grid-cols-2 justify-center items-center gap-10 max-w-6xl mt-5">
