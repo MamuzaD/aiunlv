@@ -6,7 +6,7 @@ const Hero = () => {
     <main className="bg-gradient-to-b from-white to-gray-400 md:border-b-8 border-b-gray-400 md:px-0 px-10">
       <div
         className="flex flex-col md:flex-row items-center justify-center
-        gap-16 md:pt-40 pt-32 py-24 px-auto mx-auto max-w-screen-xl
+        gap-16 py-24 px-auto mx-auto max-w-screen-xl
         "
       >
         <div className="md:max-w-lg max-w-sm space-y-8 md:ml-16">

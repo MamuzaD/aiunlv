@@ -5,7 +5,7 @@ import { texts } from "~/data/texts";
 const LearnMore = () => {
   return (
     <div
-      className="bg-gradient-to-t from-white to-gray-400 md:px-0 px-10"
+      className="overflow-x-clip bg-gradient-to-t from-white to-gray-400 md:px-0 px-10"
       id="learnMore"
     >
       <div

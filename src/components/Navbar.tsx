@@ -6,7 +6,7 @@ import GalleryDropdown from "~/components/GalleryDropdown";
 const Navbar = () => {
   return (
     <nav
-      className="fixed flex items-center justify-between w-full md:h-20 h-16 md:px-10 px-8 bg-secondary/50 backdrop-blur-md shadow-xl rounded-b-3xl z-50"
+      className="flex items-center justify-between w-full md:h-20 h-16 md:px-10 px-8 bg-secondary/50 backdrop-blur-md shadow-xl rounded-b-3xl"
       data-aos="fade-down"
       data-aos-duration="700"
     >
